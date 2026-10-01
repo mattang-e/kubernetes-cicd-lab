@@ -15,3 +15,7 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: server-inventory
+
+  syncPolicy:
+    automated:
+      selfHeal: true
