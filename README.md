@@ -308,7 +308,7 @@ Kubernetes Manifest와 Argo CD가 사용하는 Desired State를 관리합니다.
 
 ### kubernetes-cicd-lab
 
-Jenkins 및 Argo CD 기반 CI/CD / GitOps 구성 과정을 문서화합니다.
+Jenkins, Harbor 및 Argo CD 기반 CI/CD / GitOps 구성 과정을 문서화합니다.
 
 ---
 
@@ -325,6 +325,9 @@ kubernetes-cicd-lab/
 │   └── gateway/
 │       ├── gateway.yaml
 │       └── httproute.yaml
+│
+├── harbor/
+│   └── README.md
 │
 ├── jenkins/
 │   ├── README.md
